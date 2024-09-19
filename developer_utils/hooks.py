@@ -10,8 +10,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/developer_utils/css/developer_utils.css"
-# app_include_js = "/assets/developer_utils/js/developer_utils.js"
+app_include_css = "/assets/developer_utils/css/main.css"
+app_include_js = "/assets/developer_utils/js/api.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/developer_utils/css/developer_utils.css"
@@ -25,7 +25,7 @@ app_license = "mit"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+page_js = {"page" : "public/js/api.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
