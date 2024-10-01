@@ -54,8 +54,8 @@ function circle_component(pageType, page) {
 		let d = new frappe.ui.Dialog({
 			title: 'Enter details',
 			fields: fieldsList,
-			size: 'small', // small, large, extra-large 
-			primary_action_label: 'Submit',
+			size: 'extra-large', // small, large, extra-large 
+			primary_action_label: 'Select Fields',
 			primary_action(values) {
 				window.localStorage.setItem(`${page[1]}_fields`, JSON.stringify(values))
 				d.hide()
